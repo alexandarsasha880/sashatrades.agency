@@ -4,11 +4,11 @@ import { LogoIcon } from './icons/LogoIcon';
 const faqData = {
     'Getting Started': [
         { 
-            q: "What is SashaTrades?",
-            a: "At SashaTrades, we're not just another trading platform - we're your partners in wealth creation. I've spent over a decade in the markets, and I've built this firm to bring institutional-grade trading strategies to individual investors. We combine deep market analysis with disciplined risk management to help our clients navigate the complexities of the financial markets."
+            q: "What is SofiaTrades?",
+            a: "At SofiaTrades, we're not just another trading platform - we're your partners in wealth creation. I've spent over a decade in the markets, and I've built this firm to bring institutional-grade trading strategies to individual investors. We combine deep market analysis with disciplined risk management to help our clients navigate the complexities of the financial markets."
         },
         { 
-            q: "Who can trade with SashaTrades?",
+            q: "Who can trade with SofiaTrades?",
             a: "I personally work with a select group of clients who are serious about growing their capital. Whether you're just starting your investment journey or you're an experienced trader, what matters most is that we align on strategy and risk tolerance. I take the time to understand each client's financial goals before we begin working together."
         },
         {
@@ -36,8 +36,8 @@ const faqData = {
             a: "Your security is my top priority. I've implemented multiple layers of protection, including segregated accounts at top-tier banks and advanced encryption. I personally review all security protocols regularly because I believe your peace of mind is just as important as your returns."
         },
         {
-            q: "Is SashaTrades regulated?",
-            a: "Absolutely. I've built SashaTrades on a foundation of trust and compliance. We operate under strict regulatory oversight, and I take our compliance obligations extremely seriously. I'm committed to maintaining the highest standards of financial regulation and transparency."
+            q: "Is SofiaTrades regulated?",
+            a: "Absolutely. I've built SofiaTrades on a foundation of trust and compliance. We operate under strict regulatory oversight, and I take our compliance obligations extremely seriously. I'm committed to maintaining the highest standards of financial regulation and transparency."
         },
         {
             q: "What security measures are in place?",
@@ -70,7 +70,7 @@ const FaqSection: React.FC = () => {
     const [messages, setMessages] = useState<{ sender: 'manager' | 'user'; text: string; isTyping?: boolean }[]>([
         { 
             sender: 'manager', 
-            text: "Hello, I'm Alex, your dedicated fund manager at SashaTrades. I'm here to personally address any questions you have about our investment strategies, portfolio performance, or market insights. What would you like to discuss?",
+            text: "Hello, I'm Alex, your dedicated fund manager at SofiaTrades. I'm here to personally address any questions you have about our investment strategies, portfolio performance, or market insights. What would you like to discuss?",
             isTyping: false
         }
     ]);

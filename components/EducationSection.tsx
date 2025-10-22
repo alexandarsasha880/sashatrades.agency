@@ -7,7 +7,7 @@ const EducationSection: React.FC = () => {
     <section id="education" className="py-20 md:py-28 bg-dark-primary">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight">Learn & Grow with SashaTrades</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight">Learn & Grow with SofiaTrades</h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-400">Your journey to becoming a trading expert starts here. Access our exclusive resources.</p>
         </div>
         <div className="grid lg:grid-cols-5 gap-8 items-center">

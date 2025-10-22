@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { WhatsappIcon, TelegramIcon } from './icons/MessagingIcons';
+import { WhatsappIcon } from './icons/MessagingIcons';
 
 const ContactSection: React.FC = () => {
     return (
@@ -16,18 +16,14 @@ const ContactSection: React.FC = () => {
                             <h3 className="text-2xl font-bold text-white mb-4">Get in Touch Directly</h3>
                             <p className="text-gray-400 mb-6">Prefer to chat? Connect with us on your favorite platform or send us an email.</p>
                             <div className="space-y-4">
-                                <a href="#" className="flex items-center justify-center md:justify-start gap-3 bg-dark-tertiary p-3 rounded-lg hover:bg-gray-700 transition-colors">
+                                <a href="https://wa.me/13522019561" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-start gap-3 bg-dark-tertiary p-3 rounded-lg hover:bg-gray-700 transition-colors">
                                     <WhatsappIcon className="w-6 h-6 text-green-400"/>
                                     <span className="font-semibold text-white">Chat on WhatsApp</span>
-                                </a>
-                                <a href="#" className="flex items-center justify-center md:justify-start gap-3 bg-dark-tertiary p-3 rounded-lg hover:bg-gray-700 transition-colors">
-                                    <TelegramIcon className="w-6 h-6 text-sky-400"/>
-                                    <span className="font-semibold text-white">Connect on Telegram</span>
                                 </a>
                             </div>
                             <div className="mt-8 text-gray-400">
                                 <span className="font-semibold">Support Email:</span>
-                                <a href="mailto:support@sashatrades.com" className="ml-2 hover:text-sky-400">support@sashatrades.com</a>
+                                <a href="mailto:info@sashatrades.agency" className="ml-2 hover:text-sky-400">info@sashatrades.agency</a>
                             </div>
                         </div>
 

@@ -100,15 +100,15 @@ const EventsSection: React.FC = () => {
             <h3 className="text-xl font-bold text-white mb-3">Cracking the Forex Market</h3>
             <p className="text-gray-400 text-sm flex-grow">Learn advanced techniques directly from professional traders in our free monthly webinar. Includes Q&A sessions and psychology insights.</p>
             <div className="flex items-center gap-4 my-4 bg-dark-tertiary/60 p-3 rounded-lg">
-                <img src="https://picsum.photos/id/1011/100/100" alt="Carlos Gomez" className="w-12 h-12 rounded-full" />
+                <img src="/photo.jpg" alt="Alexandar Sofia" className="w-12 h-12 rounded-full object-cover" />
                 <div>
-                    <p className="font-bold text-white">Carlos Gomez</p>
+                    <p className="font-bold text-white">Alexandar Sofia</p>
                     <p className="text-xs text-gray-400">Host & Pro Trader</p>
                 </div>
             </div>
             <div className="text-sm text-gray-300 space-y-2">
-                <p className="flex items-center gap-2"><CalendarIcon className="w-4 h-4 text-gray-500"/> Next Session: <span className="font-semibold">October 27, 2025</span></p>
-                <p className="flex items-center gap-2"><ClockIcon className="w-4 h-4 text-gray-500"/> Time: <span className="font-semibold">7:00 PM (WAT)</span></p>
+                <p className="flex items-center gap-2"><CalendarIcon className="w-4 h-4 text-gray-500"/> Next Session: <span className="font-semibold">November 17, 2025</span></p>
+                <p className="flex items-center gap-2"><ClockIcon className="w-4 h-4 text-gray-500"/> Time: <span className="font-semibold">7:00 PM (GST)</span></p>
             </div>
              <button disabled className="w-full text-center font-bold py-3 px-6 rounded-lg transition-all duration-300 mt-6 bg-yellow-500/50 text-dark-primary/70 cursor-not-allowed">
                 Coming Soon
@@ -125,14 +125,14 @@ const EventsSection: React.FC = () => {
             <p className="text-gray-400 text-sm mb-4 flex-grow">Participate in our community challenges to win branded merchandise and trading gadgets.</p>
             <ul className="text-sm text-gray-300 space-y-1 list-disc list-inside mb-4">
                 <li>Forex-branded hoodies</li>
-                <li>Bluetooth speakers & Journals</li>
+                <li>iPads & MacBooks</li>
                 <li>1-month mentorship access</li>
             </ul>
              <div className="text-sm text-gray-300 space-y-2 mt-auto">
-                <p className="flex items-center gap-2"><CalendarIcon className="w-4 h-4 text-gray-500"/> Next Giveaway: <span className="font-semibold">November 10, 2025</span></p>
+                <p className="flex items-center gap-2"><CalendarIcon className="w-4 h-4 text-gray-500"/> Next Giveaway: <span className="font-semibold">October 26, 2025</span></p>
                 <p className="flex items-center gap-2"><LocationPinIcon className="w-4 h-4 text-gray-500"/> Announced in: <span className="font-semibold">Facebook Community</span></p>
             </div>
-             <a href="#" className="w-full text-center font-bold py-3 px-6 rounded-lg transition-all duration-300 mt-6 bg-purple-500 hover:bg-purple-600 text-white">
+             <a href="https://www.facebook.com/share/1F1iLquEip/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="w-full text-center font-bold py-3 px-6 rounded-lg transition-all duration-300 mt-6 bg-purple-500 hover:bg-purple-600 text-white">
                 Join the Family
             </a>
           </div>

@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tighter mb-6">
               Grow Your Capital, Hands-Free with{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-blue-500">
-                SashaTrades
+                SofiaTrades
               </span>
             </h1>
             <p className="max-w-xl mx-auto md:mx-0 text-lg md:text-xl text-gray-400 mb-8">

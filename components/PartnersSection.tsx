@@ -23,7 +23,7 @@ const PartnersSection: React.FC = () => {
           ))}
         </div>
         <div className="mt-20 bg-dark-tertiary rounded-xl p-8 md:p-12 border border-gray-700/50 text-center">
-             <h3 className="text-2xl font-bold text-white mb-3">Become a SashaTrades Affiliate</h3>
+             <h3 className="text-2xl font-bold text-white mb-3">Become a SofiaTrades Affiliate</h3>
             <p className="text-gray-400 max-w-xl mx-auto mb-6">Join our partner program and earn competitive commissions by referring new traders to our platform.</p>
              <a
                 href="#"

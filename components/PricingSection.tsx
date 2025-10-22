@@ -27,10 +27,10 @@ const fundPlans: Plan[] = [
         name: 'Starter Fund – Steady Growth',
         description: 'For new investors seeking consistent, low-risk returns.',
         minInvestment: '$500',
-        roi: '5–8%',
+        roi: '50–80%',
         strategy: 'Diversified swing trading with major currency pairs.',
         risk: { level: 'Low', icon: '🔹', color: 'text-sky-400' },
-        lockPeriod: '30 days',
+        lockPeriod: '7 days',
         features: ['Capital protection focus', 'Weekly performance reports', 'Instant profit withdrawals'],
         cta: 'Invest Now',
         theme: {
@@ -43,10 +43,10 @@ const fundPlans: Plan[] = [
         name: 'Pro Fund – Balanced Performance',
         description: 'For intermediate investors wanting solid growth with moderate risk.',
         minInvestment: '$2,000',
-        roi: '10–15%',
+        roi: '80–120%',
         strategy: 'Forex + Commodity pairs (gold, GBP/USD)',
         risk: { level: 'Medium', icon: '⚖️', color: 'text-yellow-400' },
-        lockPeriod: '60 days',
+        lockPeriod: '7 days',
         features: ['Hybrid trading approach (manual + AI systems)', 'Priority reporting', 'Dedicated account manager'],
         cta: 'Join the Pro Fund',
         isPopular: true,
@@ -60,10 +60,10 @@ const fundPlans: Plan[] = [
         name: 'Elite Fund – High-Yield Portfolio',
         description: 'For experienced investors aiming for premium returns.',
         minInvestment: '$10,000',
-        roi: '20–25%',
+        roi: '40%–90%%',
         strategy: 'Aggressive multi-asset strategy with professional oversight.',
         risk: { level: 'High', icon: '🔺', color: 'text-red-400' },
-        lockPeriod: '90 days',
+        lockPeriod: '7 days',
         features: ['Private fund manager access', 'Custom strategy adjustments', 'Monthly performance meetings'],
         cta: 'Apply for Elite Access',
         theme: {
@@ -88,7 +88,7 @@ const FundPlanCard: React.FC<{ plan: Plan }> = ({ plan }) => (
                 <p className="text-xl font-semibold text-white">{plan.minInvestment}</p>
             </div>
             <div>
-                <p className="text-sm text-gray-400">Expected Monthly ROI</p>
+                <p className="text-sm text-gray-400">Expected Weekly ROI</p>
                 <p className="text-xl font-semibold text-white">{plan.roi}</p>
             </div>
             <div>
@@ -113,7 +113,12 @@ const FundPlanCard: React.FC<{ plan: Plan }> = ({ plan }) => (
                 </li>
             ))}
         </ul>
-        <a href="#" className={`w-full text-center font-bold py-3 px-6 rounded-lg transition-all duration-300 mt-auto ${plan.theme.button}`}>
+        <a 
+            href={`https://wa.me/13522019561?text=Hello,%20I'm%20interested%20in%20the%20${encodeURIComponent(plan.name)}%20plan.%20Could%20you%20please%20provide%20more%20details?`} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={`w-full text-center font-bold py-3 px-6 rounded-lg transition-all duration-300 mt-auto ${plan.theme.button}`}
+        >
             {plan.cta}
         </a>
     </div>

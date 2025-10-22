@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { LogoIcon } from './icons/LogoIcon';
 
 const NavLink: React.FC<{ href: string; children: React.ReactNode }> = ({ href, children }) => (
   <a href={href} className="text-gray-300 hover:text-sky-400 transition-colors duration-300 px-3 py-2 text-sm font-medium">
@@ -27,8 +26,12 @@ const Header: React.FC = () => {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <a href="#" className="flex-shrink-0 flex items-center gap-2">
-                <LogoIcon className="h-8 w-auto text-sky-400" />
-                <span className="text-xl font-bold text-white">SashaTrades</span>
+                <img 
+                  src="/logo.PNG" 
+                  alt="SofiaTrades Logo" 
+                  className="h-8 w-auto"
+                />
+                <span className="text-xl font-bold text-white ml-2">SofiaTrades</span>
               </a>
             </div>
             <div className="hidden md:block">
