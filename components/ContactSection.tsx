@@ -23,7 +23,7 @@ const ContactSection: React.FC = () => {
                             </div>
                             <div className="mt-8 text-gray-400">
                                 <span className="font-semibold">Support Email:</span>
-                                <a href="mailto:info@sashatrades.agency" className="ml-2 hover:text-sky-400">info@sashatrades.agency</a>
+                                <a href="mailto:info@sofiatrades.agency" className="ml-2 hover:text-sky-400">info@sofiatrades.agency</a>
                             </div>
                         </div>
 
